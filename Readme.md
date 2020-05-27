@@ -18,15 +18,15 @@ El sistema está dividido (por el momento) en 3 partes.
 
 ### Indice:
 
-1. [El camino del pedido](#1)
-2. [Parte 1: Sistema de toma de pedidos](#2)
-3. [Parte 2: Sistema de fabricación](#3)
-4. [Parte 3: Autogestión del pedido](#4)
-5. [Desarrollo](#5)
-6. [To-Do](#6)
+1. [El camino del pedido](#el-camino-del-pedido)
+2. [Parte 1: Sistema de toma de pedidos](#parte-1-sistema-de-toma-de-pedidos)
+3. [Parte 2: Sistema de fabricación](#parte-2-sistema-de-fabricación-sap-empresa)
+4. [Parte 3: Autogestión del pedido](#parte-3-autogestión-de-pedidos-clientes)
+5. [Desarrollo](#)desarrollo)
+6. [To-Do](#to-do)
 
 
-### El camino del pedido {#1}
+### El camino del pedido
 
 
 Un pedido pasa por muchos estadios, pero los principales son: 
@@ -62,7 +62,7 @@ El pedido se presenta en forma similar al S.A.P. en formas de tarjetas con los d
 
 
 
-### Parte 1: Sistema de toma de pedidos (Empresa) {#2}
+### Parte 1: Sistema de toma de pedidos (Empresa)
 
 a desarrollar:
 
@@ -89,7 +89,7 @@ tener nuevos estados: Avisado, entregado (se puede poner un numero de seguimient
 
 
 
-### Parte 2: Sistema de Fabricación (SAP) (Empresa) {#3}
+### Parte 2: Sistema de Fabricación (SAP) (Empresa)
 
 a desarrollar:
 
@@ -113,7 +113,7 @@ tomar pedido de ventas
 poder marcar items
 estados de pedido: pendiente, fabricando, listo
 
-###  Parte 3: Autogestión de pedidos (Clientes) {#4}
+###  Parte 3: Autogestión de pedidos (Clientes)
 
 a desarrollar:
 
@@ -125,8 +125,7 @@ a desarrollar:
 
 
 
-## Desarrollo {#5}
-
+## Desarrollo 
 ### Estructura de datos
 
 La estructura de datos va a ser plasmada en una base de datos (BDD) no relacional.
@@ -155,7 +154,7 @@ BackEnd: Firebase
 
 Impresora termica
 
-### To-Do {#6}
+### To-Do
 
  - [ ] Documentación
  - [x] Indice
