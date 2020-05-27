@@ -1,6 +1,8 @@
-# Sistema plaqui
+# PlaquiSystem
 
-## Sistema de toma de pedidos para Plaqui
+## Sistema de toma de pedidos
+
+___
 
 ### Introducción
 
@@ -14,7 +16,18 @@ El sistema está dividido (por el momento) en 3 partes.
 * Parte 2: Una parte para administrar los pedidos que fueron tomados y controlar la fabricación de ellos.
 * parte 3: Una parte en la que los clientes puedas realizar sus pedidos. 
 
-### El camino del pedido
+### Indice:
+
+1. [El camino del pedido](#1)
+2. [Parte 1: Sistema de toma de pedidos](#2)
+3. [Parte 2: Sistema de fabricación](#3)
+4. [Parte 3: Autogestión del pedido](#4)
+5. [Desarrollo](#5)
+6. [To-Do](#6)
+
+
+### El camino del pedido {#1}
+
 
 Un pedido pasa por muchos estadios, pero los principales son: 
 
@@ -41,18 +54,31 @@ Extras:
 * El pedido es para envíar con Cadete
 * Se especifica cómo se retira el pedido
 
-### Presentación de pedido
+#### Presentación de pedido
 
 El pedido se presenta en forma similar al S.A.P. en formas de tarjetas con los datos.
-
 
 * Parte 1: En forma de tarjeta
 
 
 
-### Parte 1: Sistema de toma de pedidos (Empresa)
+### Parte 1: Sistema de toma de pedidos (Empresa) {#2}
 
 a desarrollar:
+
+#### División: 
+
+##### Tomar pedidos:
+
+##### Revisar pedidos:
+
+##### Modificar pedidos:
+
+##### Venta en local (POS):
+
+##### Clientes
+
+
 
 tomar pedido
 crear estado pendiente/agendado
@@ -63,19 +89,47 @@ tener nuevos estados: Avisado, entregado (se puede poner un numero de seguimient
 
 
 
-### Parte 2: Sistema de Fabricación (SAP) (Empresa)
+### Parte 2: Sistema de Fabricación (SAP) (Empresa) {#3}
+
+a desarrollar:
+
+
+#### División: 
+
+##### Recepción de pedidos:
+
+Vista de todos los pedidos por fecha
+
+##### Vista de pedidos por fecha
+
+##### Vista de productos totales
+
+##### Clientes
+
+##### Logos de pedidos
+
 
 tomar pedido de ventas
 poder marcar items
 estados de pedido: pendiente, fabricando, listo
 
+###  Parte 3: Autogestión de pedidos (Clientes) {#4}
 
-### Parte 3: Autogestión de pedidos (Clientes)
+a desarrollar:
+
+#### División
+
+##### Ingreso de pedidos
+
+##### Seguimiento de pedido
 
 
-## Desarrollo
+
+## Desarrollo {#5}
 
 ### Estructura de datos
+
+La estructura de datos va a ser plasmada en una base de datos (BDD) no relacional.
 
 #### Pedido
 
@@ -99,4 +153,11 @@ BackEnd: Firebase
  * Usuarios: Firebase Auth
  * Analitycs: Firebase Analitycs
 
-Tiquera
+Impresora termica
+
+### To-Do {#6}
+
+ - [ ] Documentación
+ - [x] Indice
+ - [ ] Bocetar interfaces
+ - [ ] Estructurar datos en BDD
