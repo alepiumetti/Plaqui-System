@@ -66,6 +66,8 @@ El pedido se presenta en forma similar al S.A.P. en formas de tarjetas con los d
 
 a desarrollar:
 
+
+
 #### División: 
 
 ##### Tomar pedidos:
@@ -129,6 +131,24 @@ a desarrollar:
 ### Estructura de datos
 
 La estructura de datos va a ser plasmada en una base de datos (BDD) no relacional.
+
+#### Productos
+
+Los productos se dividen en 2 lineas: Bases y ToppersCake. 
+
+Catalogos de productos:
+
+https://bit.ly/plaqui
+
+
+
+##### Linea 1: Bases
+
+Hay 2 tipos de bases, planas y alzadas. Las planas no dependen de un pie para sostenerse, las alzadas si. 
+
+Las bases planas se fabrican en diferentes formas: Flor, Sol, Redondas, Gota, Cuadradas y Vintages. Además cada base se puede hacer de un color y tamaño diferente
+
+![](imgs/bases.jpg)
 
 #### Pedido
 
